@@ -2,6 +2,7 @@
 
 # 今日の日記を作成するスクリプト。
 # 通常は１日に一度実行する。
+# 動作は macOS のみ確認済。
 
 function getDayOfWeek () {
     dow=$(date "+%w")
